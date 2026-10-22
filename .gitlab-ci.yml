@@ -1,0 +1,8 @@
+# Offline checks only: no API key in CI, so the LLM judge and generation are not run here.
+checks:
+  image: ghcr.io/astral-sh/uv:python3.14-bookworm-slim
+  script:
+    - uv sync --locked
+    - uv run ruff check .
+    - uv run pyright
+    - uv run pytest -q

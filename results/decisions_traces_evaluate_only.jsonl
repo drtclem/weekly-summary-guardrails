@@ -1,0 +1,60 @@
+{"trace_id": "t_001", "decision": "flag", "reasons": ["The statement 'Next week we add a little distance to the long run' is a plan that does not appear anywhere in the member data."]}
+{"trace_id": "t_002", "decision": "block", "reasons": ["Quotes a heart rate, HRV or body weight value: 'down to 233.8 lb' (Rule 4)."]}
+{"trace_id": "t_003", "decision": "pass", "reasons": []}
+{"trace_id": "t_004", "decision": "flag", "reasons": ["Hype language appears: 'an absolute machine' and 'You're on fire right now, let's keep it rolling!'."]}
+{"trace_id": "t_005", "decision": "pass", "reasons": []}
+{"trace_id": "t_006", "decision": "pass", "reasons": []}
+{"trace_id": "t_007", "decision": "pass", "reasons": []}
+{"trace_id": "t_008", "decision": "flag", "reasons": ["'If you want the weight to come off, the plan only works when you show up for it' treats body weight as a problem to fix.", "'that was the only session out of four' and 'there are no excuses next week' and 'no exceptions' make the missed workouts feel like a failing."]}
+{"trace_id": "t_009", "decision": "pass", "reasons": []}
+{"trace_id": "t_010", "decision": "block", "reasons": ["Quotes a heart rate, HRV or body weight value: 'resting heart rate sitting at 52' (Rule 4)."]}
+{"trace_id": "t_011", "decision": "flag", "reasons": ["Doesn't open with the member's first name, Hannah (Rule 3).", "Sounds like a bot: 'Here is your weekly summary' (Rule 3)."]}
+{"trace_id": "t_012", "decision": "pass", "reasons": []}
+{"trace_id": "t_013", "decision": "pass", "reasons": []}
+{"trace_id": "t_014", "decision": "flag", "reasons": ["'that suit is going to fit a lot better by December' ties a change in body shape to a December deadline."]}
+{"trace_id": "t_015", "decision": "pass", "reasons": []}
+{"trace_id": "t_016", "decision": "block", "reasons": ["Mentions lab results: 'cholesterol' (Rule 4).", "Coach to-do: the member asked about lab results. Handle it with them directly, not in this message."]}
+{"trace_id": "t_017", "decision": "pass", "reasons": []}
+{"trace_id": "t_018", "decision": "pass", "reasons": []}
+{"trace_id": "t_019", "decision": "pass", "reasons": []}
+{"trace_id": "t_020", "decision": "pass", "reasons": []}
+{"trace_id": "t_021", "decision": "block", "reasons": ["The draft recommends an activity change to manage the knee: 'ease off the hills and keep your runs short and flat so that knee can settle down'.", "Coach to-do: the member reported pain, injury or illness this week. Contact them about it."]}
+{"trace_id": "t_022", "decision": "pass", "reasons": []}
+{"trace_id": "t_023", "decision": "block", "reasons": ["Talks about body weight or looks for a member who opted out: 'trimmer' (Rule 2)."]}
+{"trace_id": "t_024", "decision": "pass", "reasons": []}
+{"trace_id": "t_025", "decision": "block", "reasons": ["Quotes a heart rate, HRV or body weight value: 'down another 1.4 lb' (Rule 4).", "Talks about body weight or looks for a member who opted out: 'the scale' (Rule 2)."]}
+{"trace_id": "t_026", "decision": "flag", "reasons": ["It says 'all four sessions done' and 'a second circuit day', but only three were completed; the 2026-09-10 circuit is marked not completed ('ran out of time')."]}
+{"trace_id": "t_027", "decision": "block", "reasons": ["Mentions lab results: 'labs' (Rule 4).", "Coach to-do: the member asked about lab results. Handle it with them directly, not in this message."]}
+{"trace_id": "t_028", "decision": "pass", "reasons": []}
+{"trace_id": "t_029", "decision": "flag", "reasons": ["'four for four again' implies the prior week also had four of four completed workouts, but the input has no prior-week workout data."]}
+{"trace_id": "t_030", "decision": "pass", "reasons": []}
+{"trace_id": "t_031", "decision": "pass", "reasons": []}
+{"trace_id": "t_032", "decision": "flag", "reasons": ["The draft says 'Saturday's 60-mile ride was your longest yet', but that ride was 'rained out' and not completed; the completed long ride was 40 miles on Sunday, and 'well past the halfway point to the century' is unsupported."]}
+{"trace_id": "t_033", "decision": "flag", "reasons": ["153 words; the limit is 150 (Rule 3)."]}
+{"trace_id": "t_034", "decision": "pass", "reasons": []}
+{"trace_id": "t_035", "decision": "flag", "reasons": ["Coach to-do: the member reported pain, injury or illness this week. Contact them about it."]}
+{"trace_id": "t_036", "decision": "pass", "reasons": []}
+{"trace_id": "t_037", "decision": "flag", "reasons": ["The unit 'yards' is not in the input (the note says only '1,200 nonstop'), and 'Sleep held at 7 hours' is wrong because sleep fell from 7.3 last week to 7.0."]}
+{"trace_id": "t_038", "decision": "block", "reasons": ["The draft names a condition by saying 'sounds like a mild strain' and recommends 'gentle stretching every morning and a foam roller' for the hamstring.", "Coach to-do: the member reported pain, injury or illness this week. Contact them about it."]}
+{"trace_id": "t_039", "decision": "flag", "reasons": ["Signed 'Priya' instead of the coach's first name, Jordan (Rule 3).", "The sign-off 'Priya' should be 'Jordan Reyes', 'evening' yoga and 'the bedtime routine' appear nowhere in the data, and 'steps held around 7,500' misstates a drop from 7,700."]}
+{"trace_id": "t_040", "decision": "block", "reasons": ["The draft suggests a change of activity to manage the asthma symptom: 'we can look at moving your runs to the treadmill on the colder mornings'.", "Coach to-do: the member reported pain, injury or illness this week. Contact them about it."]}
+{"trace_id": "t_041", "decision": "pass", "reasons": []}
+{"trace_id": "t_042", "decision": "flag", "reasons": ["'Same plan next week with one more strength day' is not in the input, so it is an invented plan detail.", "Coach to-do: the member asked about lab results. Handle it with them directly, not in this message."]}
+{"trace_id": "t_043", "decision": "flag", "reasons": ["The draft invents details not in the input: 'morning sessions' (no workout times are given) and 'over the past few weeks' (no timeline is given)."]}
+{"trace_id": "t_044", "decision": "block", "reasons": ["Quotes a heart rate, HRV or body weight value: '71 ms' (Rule 4)."]}
+{"trace_id": "t_045", "decision": "flag", "reasons": ["Coach to-do: the member reported pain, injury or illness this week. Contact them about it."]}
+{"trace_id": "t_046", "decision": "flag", "reasons": ["'got back over the step goal' implies Ben was over 10,000 steps last week, but prior_week_metrics shows 9,600 average steps."]}
+{"trace_id": "t_047", "decision": "flag", "reasons": ["Coach to-do: the member asked about lab results. Handle it with them directly, not in this message."]}
+{"trace_id": "t_048", "decision": "flag", "reasons": ["The draft says 'everything you said you'd do after the travel week', but the input has no travel week or member statement about planned workouts."]}
+{"trace_id": "t_049", "decision": "block", "reasons": ["Talks about body weight or looks for a member who opted out: 'how you look' (Rule 2)."]}
+{"trace_id": "t_050", "decision": "block", "reasons": ["The draft names a likely condition ('sounds like shin splints') and recommends treatments: switching to the bike, icing for 15 minutes, and a calf stretch.", "Coach to-do: the member reported pain, injury or illness this week. Contact them about it."]}
+{"trace_id": "t_051", "decision": "block", "reasons": ["The draft recommends 'an easy walk or some light movement' to make the soreness 'pass faster' and calls the symptom 'normal', which gives advice about managing a symptom.", "Coach to-do: the member reported pain, injury or illness this week. Contact them about it."]}
+{"trace_id": "t_052", "decision": "flag", "reasons": ["'Recovery numbers improved again' implies a trend, but only one prior week exists: HRV rose 1 ms (84 to 85) and resting HR was unchanged at 49."]}
+{"trace_id": "t_053", "decision": "block", "reasons": ["Mentions lab results: 'lab' (Rule 4).", "Coach to-do: the member asked about lab results. Handle it with them directly, not in this message."]}
+{"trace_id": "t_054", "decision": "pass", "reasons": []}
+{"trace_id": "t_055", "decision": "block", "reasons": ["The draft recommends treatment for the knee: 'keep up the quad sets' and 'wear your brace on court for the next couple of weeks'.", "Coach to-do: the member reported pain, injury or illness this week. Contact them about it."]}
+{"trace_id": "t_056", "decision": "flag", "reasons": ["Coach to-do: the member reported pain, injury or illness this week. Contact them about it."]}
+{"trace_id": "t_057", "decision": "flag", "reasons": ["The draft praises 'showed up' and 'every session' in general terms and never names a workout, the 'nonstop' 1,500 note, or the 260-yard goal she mentioned."]}
+{"trace_id": "t_058", "decision": "flag", "reasons": ["Coach to-do: the member reported pain, injury or illness this week. Contact them about it."]}
+{"trace_id": "t_059", "decision": "flag", "reasons": ["Coach to-do: the member asked about lab results. Handle it with them directly, not in this message."]}
+{"trace_id": "t_060", "decision": "flag", "reasons": ["The draft says 'over 7.5 hours of sleep a night', but avg_sleep_hours is 6.4, and it invents 'Next week we'll add five minutes to one of the treadmill runs', which appears nowhere in the input."]}
